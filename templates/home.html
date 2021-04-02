@@ -1,0 +1,25 @@
+<html>
+    <body bgcolor=#ffffff>
+
+        <center>
+
+        <h1> แบบฟอร์มคัดกรองโรคเบื้องต้น </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+           <b> อุณหภุมิร่างการเท่าไหร่ :  <input type="text", name='a', placeholder="ใส่เลขอุณหภูมิ"> <br><br>
+            ปวดหัวหรือไม่ :  <input type="text", name='b', placeholder="ใส่ 1/0"> <br><br>
+            คัดจมูกหรือไม่ :  <input type="text", name='c', placeholder="ใส่ 1/0"> <br><br>
+            ไอหรือเจ็บคอไหม : <input type="text", name='d', placeholder="ใส่ 1/0"> <br><br>
+            ปวดเมื่อยบ้างไหม :  <input type="text", name='e', placeholder="ใส่ 1/0"> <br><br>
+            มีอาการคลื่นไส้อาเจียนไหม :  <input type="text", name='f', placeholder="ใส่ 1/0"> <br><br>
+            มีจุดแดงขึ้นตามตัวบ้างไหม :  <input type="text", name='g', placeholder="ใส่ 1/0"> <br><br>
+            <br></b>
+            <input type="submit" , value='ทำนาย!' >
+        </form>
+
+        
+        
+    </center>
+
+    </body>
+</html>
